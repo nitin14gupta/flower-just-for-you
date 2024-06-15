@@ -12,6 +12,24 @@ body{
     justify-content: center;
     background-color: black;
 }
+
+
+.header {
+  position: fixed;
+  top: 10px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #f94144; /* Red color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+}
+
+.header h1{
+  font-family: cursive;
+}
+
+
 .greetings{
     font-size: 6rem;
     font-weight: 900;
@@ -1626,3 +1644,12 @@ body {
   -webkit-animation-play-state: paused !important;
   animation-play-state: paused !important;
 } /*# sourceMappingURL=main.css.map */
+
+
+
+.animation-container {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
